@@ -108,7 +108,122 @@ export class HomeExpertiseComponent implements OnInit {
   }
 
   _mTools = [
+    // web
 
+
+
+    {
+      "id": "8104",
+      "name": "Ngrx",
+      "logo": "assets/img/tools/ngrx.svg",
+      "link": "https://ngrx.io/",
+      "tab": "web"
+    },
+    {
+      "id": "8102",
+      "name": "Polymer",
+      "logo": "assets/img/tools/polymer.svg",
+      "link": "https://www.polymer-project.org/",
+      "tab": "web"
+    },
+
+    {
+      "id": "8103",
+      "name": "WebComponents",
+      "logo": "assets/img/tools/web-component-logo.png",
+      "link": "https://www.webcomponents.org/",
+      "tab": "web"
+    },
+    {
+      "id": "8101",
+      "name": "Angular",
+      "logo": "assets/img/tools/angular.png",
+      "link": "https://angular.io/",
+      "tab": "web",
+      "color": "#FF4369"
+    },
+    {
+      "id": "8108",
+      "name": "Sass",
+      "logo": "assets/img/tools/sass-logo.svg",
+      "link": "https://sass-lang.com/",
+      "tab": "web",
+      "color": "#CF649A"
+    },
+    {
+      "id": "8105",
+      "name": "HighCharts js",
+      "logo": "assets/img/tools/highchart-logo.png",
+      "link": "https://www.highcharts.com/",
+      "tab": "web"
+    },
+
+    {
+      "id": "8106",
+      "name": "D3 js",
+      "logo": "assets/img/tools/d3.svg",
+      "link": "https://d3js.org/",
+      "tab": "web"
+    },
+
+    {
+      "id": "8109",
+      "name": "Scully",
+      "logo": "assets/img/tools/scully.svg",
+      "link": "https://https://scully.io/",
+      "tab": "web",
+    },
+
+    // backend
+
+    {
+      "id": "7121",
+      "name": "Express",
+      "logo": "assets/img/tools/express.png",
+      "link": "https://expressjs.com/",
+      "tab": "back-end"
+    },
+    {
+      "id": "7122",
+      "name": "Sequelize",
+      "logo": "assets/img/tools/sequelize.png",
+      "link": "http://docs.sequelizejs.com/",
+      "tab": "back-end"
+    },
+
+    {
+      "id": "7126",
+      "name": "NodeJs",
+      "logo": "assets/img/tools/nodejs.png",
+      "link": "https://nodejs.org/en/",
+      "tab": "back-end"
+    },
+
+    // cloud
+
+    {
+      "id": "6121",
+      "name": "Firebase",
+      "logo": "assets/img/tools/firebase.svg",
+      "link": "https://firebase.google.com/",
+      "tab": "cloud"
+    },
+
+    {
+      "id": "6123",
+      "name": "Azure",
+      "logo": "assets/img/tools/azure.png",
+      "link": "https://azure.microsoft.com",
+      "tab": "cloud"
+    },
+
+    {
+      "id": "6124",
+      "name": "Google cloud",
+      "logo": "assets/img/tools/google-cloud.png",
+      "link": "https://cloud.google.com/",
+      "tab": "cloud"
+    },
     // design
     {
       "id": "5131",
@@ -204,120 +319,7 @@ export class HomeExpertiseComponent implements OnInit {
       "color": "#42A5F5"
     },
 
-    // web
 
-    
-
-    {
-      "id": "8102",
-      "name": "Polymer",
-      "logo": "assets/img/tools/polymer.svg",
-      "link": "https://www.polymer-project.org/",
-      "tab": "web"
-    },
-
-    {
-      "id": "8103",
-      "name": "WebComponents",
-      "logo": "assets/img/tools/web-component-logo.png",
-      "link": "https://www.webcomponents.org/",
-      "tab": "web"
-    },
-    {
-      "id": "8105",
-      "name": "HighCharts js",
-      "logo": "assets/img/tools/highchart-logo.png",
-      "link": "https://www.highcharts.com/",
-      "tab": "web"
-    },
-    {
-      "id": "8108",
-      "name": "Sass",
-      "logo": "assets/img/tools/sass-logo.svg",
-      "link": "https://sass-lang.com/",
-      "tab": "web",
-      "color": "#CF649A"
-    },
-    {
-      "id": "8106",
-      "name": "D3 js",
-      "logo": "assets/img/tools/d3.svg",
-      "link": "https://d3js.org/",
-      "tab": "web"
-    },
-    {
-      "id": "8104",
-      "name": "Ngrx",
-      "logo": "assets/img/tools/ngrx.svg",
-      "link": "https://ngrx.io/",
-      "tab": "web"
-    },
-    {
-      "id": "8101",
-      "name": "Angular",
-      "logo": "assets/img/tools/angular.png",
-      "link": "https://angular.io/",
-      "tab": "web",
-      "color": "#FF4369"
-    },
-    {
-      "id": "8109",
-      "name": "Scully",
-      "logo": "assets/img/tools/scully.svg",
-      "link": "https://https://scully.io/",
-      "tab": "web",
-    },
-
-    // backend
-
-    {
-      "id": "7121",
-      "name": "Express",
-      "logo": "assets/img/tools/express.png",
-      "link": "https://expressjs.com/",
-      "tab": "back-end"
-    },
-    {
-      "id": "7122",
-      "name": "Sequelize",
-      "logo": "assets/img/tools/sequelize.png",
-      "link": "http://docs.sequelizejs.com/",
-      "tab": "back-end"
-    },
-
-    {
-      "id": "7126",
-      "name": "NodeJs",
-      "logo": "assets/img/tools/nodejs.png",
-      "link": "https://nodejs.org/en/",
-      "tab": "back-end"
-    },
-
-    // cloud
-
-    {
-      "id": "6121",
-      "name": "Firebase",
-      "logo": "assets/img/tools/firebase.svg",
-      "link": "https://firebase.google.com/",
-      "tab": "cloud"
-    },
-
-    {
-      "id": "6123",
-      "name": "Azure",
-      "logo": "assets/img/tools/azure.png",
-      "link": "https://azure.microsoft.com",
-      "tab": "cloud"
-    },
-
-    {
-      "id": "6124",
-      "name": "Google cloud",
-      "logo": "assets/img/tools/google-cloud.png",
-      "link": "https://cloud.google.com/",
-      "tab": "cloud"
-    },
 
 
   ]
